@@ -1,4 +1,4 @@
-package dev.sharathk.leetcode;
+package dev.sharathk.leetcode.array;
 
 import org.junit.jupiter.api.Test;
 
