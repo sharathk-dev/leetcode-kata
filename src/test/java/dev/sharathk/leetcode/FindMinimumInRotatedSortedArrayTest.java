@@ -40,4 +40,9 @@ class FindMinimumInRotatedSortedArrayTest {
     void minimumAtFrontMeansNoRotation() {
         assertEquals(1, FindMinimumInRotatedSortedArray.findMin(new int[]{1, 2, 3, 4, 5}));
     }
+
+    @Test
+    void threeElementsRotated() {
+        assertEquals(1, FindMinimumInRotatedSortedArray.findMin(new int[]{3, 1, 2}));
+    }
 }
